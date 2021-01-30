@@ -56,8 +56,8 @@
     <Compile Include="Assets\BalaController.cs" />
     <Compile Include="Assets\SeguirPlayer.cs" />
     <Compile Include="Assets\DisparoPlayer.cs" />
-    <Compile Include="Assets\Movimiento.cs" />
     <Compile Include="Assets\Scripts\ScriptExample.cs" />
+    <Compile Include="Assets\Movimiento.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
