@@ -58,6 +58,7 @@
     <Compile Include="Assets\DisparoPlayer.cs" />
     <Compile Include="Assets\Scripts\ScriptExample.cs" />
     <Compile Include="Assets\Movimiento.cs" />
+    <Compile Include="Assets\Scripts\Main.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
