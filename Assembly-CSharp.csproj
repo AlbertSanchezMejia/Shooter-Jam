@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Torre\Relantizar.cs" />
     <Compile Include="Assets\Scripts\Torre\Bala\MoveBalaPlas.cs" />
     <Compile Include="Assets\Scripts\ScriptExample.cs" />
+    <Compile Include="Assets\Scripts\Enemigo\Mover.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

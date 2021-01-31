@@ -21,8 +21,9 @@ public class DetectarEnemigos : MonoBehaviour
     {
         if (col.tag == "enemigo")
         {
-            //genBalas.GetComponent<GenPlasma>().disparar();
+            genBalas.GetComponent<GenPlasma>().disparar();
             Debug.Log("Funciono el disparo");
         }
     }
+
 }

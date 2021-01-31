@@ -25,7 +25,6 @@ public class Relantizar : MonoBehaviour
         {
             velEnemigo = col.GetComponent<Mover>().nav.speed;
             col.GetComponent<Mover>().nav.speed = col.GetComponent<Mover>().nav.speed * relantizar;
-            //genBalas.GetComponent<GenPlasma>().disparar();
             //Debug.Log("Funciono el disparo");
         }
     }
