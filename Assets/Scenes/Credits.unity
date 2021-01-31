@@ -455,7 +455,7 @@ GameObject:
   - component: {fileID: 461525922}
   - component: {fileID: 461525921}
   m_Layer: 0
-  m_Name: AudioCreditos
+  m_Name: AudioMain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
