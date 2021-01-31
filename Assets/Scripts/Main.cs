@@ -8,7 +8,20 @@ public class Main : MonoBehaviour
     
     public void PlayGame ()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Game", LoadSceneMode.Single);
+    }
+    public void Mostrar_creditos ()
+    {
+        SceneManager.LoadScene("Credits", LoadSceneMode.Single);
     }
 
+    public void Mostrar_opciones ()
+    {
+        SceneManager.LoadScene("Options", LoadSceneMode.Single);
+    }
+
+    public void Salir()
+    {
+        Application.Quit();
+    }
 }

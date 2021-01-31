@@ -1686,6 +1686,7 @@ GameObject:
   - component: {fileID: 1727042874}
   - component: {fileID: 1727042873}
   - component: {fileID: 1727042872}
+  - component: {fileID: 1727042876}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1776,6 +1777,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1727042876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727042871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcfc390fa05b08d43bd909e846497326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1730064342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2309,7 +2322,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2055735070}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1727042876}
+        m_TargetAssemblyTypeName: Main, Assembly-CSharp
+        m_MethodName: Salir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2055735070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2429,7 +2454,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2060237717}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1727042876}
+        m_TargetAssemblyTypeName: Main, Assembly-CSharp
+        m_MethodName: Mostrar_creditos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2060237717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2549,7 +2586,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2068821329}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1727042876}
+        m_TargetAssemblyTypeName: Main, Assembly-CSharp
+        m_MethodName: Mostrar_opciones
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2068821329
 MonoBehaviour:
   m_ObjectHideFlags: 0
