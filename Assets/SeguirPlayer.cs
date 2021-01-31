@@ -1,17 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class SeguirPlayer : MonoBehaviour
 {
-    public UnityEngine.AI.NavMeshAgent enemy;
+    public NavMeshAgent enemy;
     public Transform player;
-    // Start is called before the first frame update
+    float speed = 18f;
     void Start()
     {
-
+        enemy = GetComponent<NavMeshAgent>();
+        enemy.speed = speed;
     }
-
     // Update is called once per frame
     void Update()
     {
