@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,18 +53,15 @@
     <UnityVersion>2020.1.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Torre\GenPlasma.cs" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scripts\Jugador\DisparoPlayer.cs" />
     <Compile Include="Assets\Scripts\OptionController.cs" />
     <Compile Include="Assets\Scripts\Jugador\SeguirPlayer.cs" />
     <Compile Include="Assets\BalaController.cs" />
-    <Compile Include="Assets\Scripts\Torre\DetectarEnemigos.cs" />
-    <Compile Include="Assets\Scripts\Torre\Relantizar.cs" />
-    <Compile Include="Assets\Scripts\Torre\Bala\MoveBalaPlas.cs" />
     <Compile Include="Assets\Scripts\Jugador\Movimiento.cs" />
     <Compile Include="Assets\Scripts\ScriptExample.cs" />
-    <Compile Include="Assets\Scripts\Enemigo\Mover.cs" />
-    <Compile Include="Assets\Scripts\Main.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
