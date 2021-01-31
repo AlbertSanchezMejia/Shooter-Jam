@@ -10,7 +10,7 @@ public class DisparoPlayer : MonoBehaviour
     public static float shootingDelay = 0.20f;
 
     public BalaController bala;
-    public static float bulletSpeed = 15;
+    public static float bulletSpeed = 40;
 
     public float timeBetweenShots;
     private float shotCounter;
