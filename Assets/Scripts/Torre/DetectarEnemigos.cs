@@ -25,4 +25,5 @@ public class DetectarEnemigos : MonoBehaviour
             Debug.Log("Funciono el disparo");
         }
     }
+
 }

@@ -23,9 +23,8 @@ public class Relantizar : MonoBehaviour
     {
         if (col.tag == "enemigo")
         {
-            velEnemigo = col.GetComponent<SeguirPlayer>().speed;
-            col.GetComponent<SeguirPlayer>().speed = col.GetComponent<SeguirPlayer>().speed * relantizar;
-            //genBalas.GetComponent<GenPlasma>().disparar();
+            velEnemigo = col.GetComponent<Mover>().nav.speed;
+            col.GetComponent<Mover>().nav.speed = col.GetComponent<Mover>().nav.speed * relantizar;
             //Debug.Log("Funciono el disparo");
         }
     }
@@ -33,7 +32,7 @@ public class Relantizar : MonoBehaviour
     {
         if (col.tag == "enemigo")
         {
-            col.GetComponent<SeguirPlayer>().speed = velEnemigo;
+            col.GetComponent<Mover>().nav.speed = velEnemigo;
         }
     }
 }
