@@ -29,4 +29,9 @@ public class Main : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void UpdateVolume()
+    {
+        
+    }
 }
