@@ -336,6 +336,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.04271759, y: 0.026327714, z: 0.12522385}
   m_Center: {x: 0.001223526, y: 0.008378423, z: 0.024847908}
+--- !u!1 &185456024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1875903903299133739, guid: 4319b0bbbed7deb418695f529410dec8, type: 3}
+  m_PrefabInstance: {fileID: 1875903904212125747}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &185456025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185456024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726d716558149cb48a4768fd884f0c8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 0}
+  player: {fileID: 0}
+  speed: 18
 --- !u!1 &384007714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1248,7 +1268,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 678bd09d598960346949a06fb7bd5931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 25
 --- !u!65 &778784956
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1307,11 +1326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1d3a2bc3a98af6498a68a59b6952ed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFiring: 0
-  timer: 2
-  bala: {fileID: 2061588260549000050, guid: ad5269705456d714aa73c5b393cca765, type: 3}
-  timeBetweenShots: 0
-  firePoint: {fileID: 487615345}
 --- !u!114 &778784960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1324,11 +1338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1d3a2bc3a98af6498a68a59b6952ed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFiring: 0
-  timer: 2
-  bala: {fileID: 2061588260549000050, guid: ad5269705456d714aa73c5b393cca765, type: 3}
-  timeBetweenShots: 0
-  firePoint: {fileID: 1380154909}
 --- !u!1 &783601294
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,6 +2438,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762191845}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1780885217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5094441859754229642, guid: ac134b2e39e5d944faab2a8908e7794b, type: 3}
+  m_PrefabInstance: {fileID: 5094441858653724708}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1780885218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780885217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726d716558149cb48a4768fd884f0c8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 0}
+  player: {fileID: 0}
+  speed: 18
 --- !u!1 &1821953741
 GameObject:
   m_ObjectHideFlags: 0
@@ -3263,7 +3292,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1875903903299133737, guid: 4319b0bbbed7deb418695f529410dec8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4319b0bbbed7deb418695f529410dec8, type: 3}
 --- !u!1001 &5094441858653724708
 PrefabInstance:
@@ -3324,5 +3354,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5094441859754229652, guid: ac134b2e39e5d944faab2a8908e7794b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ac134b2e39e5d944faab2a8908e7794b, type: 3}
