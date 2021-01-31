@@ -18,6 +18,7 @@ public class Movimiento : MonoBehaviour
         float moveVertical = Input.GetAxisRaw("Vertical");
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        transform.Translate(movement * velocidad * Time.deltaTime, Space.World);
 
         //Player mira en dirección al movimiento
         if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
@@ -26,6 +27,5 @@ public class Movimiento : MonoBehaviour
 
         }
 
-        transform.Translate(movement * velocidad * Time.deltaTime, Space.World);
     }
 }
