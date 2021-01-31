@@ -20,6 +20,11 @@ public class Main : MonoBehaviour
         SceneManager.LoadScene("Options", LoadSceneMode.Single);
     }
 
+    public void Rerty_main ()
+    {
+        SceneManager.LoadScene("Main", LoadSceneMode.Single);
+    }
+
     public void Salir()
     {
         Application.Quit();
