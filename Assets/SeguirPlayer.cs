@@ -7,7 +7,7 @@ public class SeguirPlayer : MonoBehaviour
 {
     public NavMeshAgent enemy;
     public Transform player;
-    public float speed = 18f;
+    float speed = 18f;
     void Start()
     {
         enemy = GetComponent<NavMeshAgent>();

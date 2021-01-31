@@ -5,14 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Main : MonoBehaviour
 {
-
-    public float currentVolume = 1f;
-
-    public void Start()
-    {
-        
-    }
-
+    
     public void PlayGame ()
     {
         SceneManager.LoadScene("Game", LoadSceneMode.Single);
@@ -36,5 +29,4 @@ public class Main : MonoBehaviour
     {
         Application.Quit();
     }
-
 }
